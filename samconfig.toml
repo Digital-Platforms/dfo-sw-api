@@ -1,0 +1,15 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ssc-dfo-sam-sw-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1obfxeq1hykq6"
+s3_prefix = "ssc-dfo-sam-sw-api"
+region = "ca-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "Env=\"AWS\""
+image_repositories = []
+resolve_s3 = true
+profile = "asea-session"

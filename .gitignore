@@ -1,0 +1,5 @@
+node_modules
+.aws-sam
+.vscode
+package.json
+package-lock.json
